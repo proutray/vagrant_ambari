@@ -4,8 +4,8 @@ Check the description below for the kind of cluster setup needed.
 
 Note: If you are testing this and it works on a particular setup other than mentioned, please feel free to drop a word to `emailroutray AT gmail DOT com`
 
-- `Single_VagrantAmbari2.1`
-	- Single multinode cluster with Ambari 2.1
+- `SingleCluster`
+	- Single Multinode Cluster with Ambari 2.1
 	- Tested on 
 		- Combination1
 			- Mac OS X El Capitan `10.11.1`  
