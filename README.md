@@ -2,7 +2,7 @@
 The vagrantfile included in this project is intended to be used to set up HDP clusters using Ambari.
 Check the description below for the kind of cluster setup needed.
 
-Note: If you are testing this and it works on a particular setup other than mentioned, please feel free to drop a word to `emailroutray AT gmail DOT com`
+Note: If you are testing this and it works on a particular setup other than mentioned, please feel free to drop a word to `emailroutray AT gmail DOT com` or [@proutray](https://twitter.com/p_routray)
 
 - `SingleCluster`
 	- Single Multinode Cluster with Ambari 2.1
