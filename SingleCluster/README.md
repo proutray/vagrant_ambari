@@ -2,6 +2,8 @@
 ##Single cluster with 3 nodes.
 This is a step by step installation guide of HDP 2.3 on a multinode cluster.
 
+- Check the `ambariserver.sh` file if you want to change the Ambari version.
+
 ##Assumptions
 
 - Tested on Mac OSX with 16GB RAM.
