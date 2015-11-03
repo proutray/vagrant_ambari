@@ -4,7 +4,7 @@ Check the description below for the kind of cluster setup needed.
 
 Note: If you are testing this and it works on a particular setup other than mentioned, please feel free to drop a word to `emailroutray AT gmail DOT com`
 
-- `SingleVagrantAmbari2.1`
+- `Single_VagrantAmbari2.1`
 	- Single multinode cluster with Ambari 2.1
 	- Tested on 
 		- Combination1
