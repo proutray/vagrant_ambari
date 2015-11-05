@@ -56,7 +56,6 @@ Add the following lines to the `/etc/hosts` file.
 ambari1.piyushroutray
 ambari2.piyushroutray
 ambari3.piyushroutray
-ambari4.piyushroutray
 ```
 
 - Select the private key `id_rsa` provided in this folder.
