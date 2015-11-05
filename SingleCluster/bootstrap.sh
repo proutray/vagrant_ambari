@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 
-cp /vagrant/hosts /etc/hosts
-cp /vagrant/resolv.conf /etc/resolv.conf
-
 sudo su -
 yum install ntp -y
 service ntpd start
-#service iptables stop
+
+cp /home/vagrant/sync/hosts /etc/hosts
+cp /home/vagrant/sync/resolv.conf /etc/resolv.conf
+
 systemctl stop firewalld
 
 mkdir -p /root/.ssh; chmod 700 /root/.ssh
-cp /vagrant/id_rsa /root/.ssh
-cp /vagrant/id_rsa.pub /root/.ssh
+cp /home/vagrant/sync/id_rsa /root/.ssh
+cp /home/vagrant/sync/id_rsa.pub /root/.ssh
 touch /root/.ssh/authorized_keys; chmod 640 /root/.ssh/authorized_keys
 cat /root/.ssh/id_rsa.pub >> /root/.ssh/authorized_keys
 
@@ -25,4 +25,5 @@ sudo mkswap /swapfile
 sudo swapon /swapfile
 echo "/swapfile       none    swap    sw      0       0" >> /etc/fstab
 
-sudo yum upgrade -y
+yum install wget -y
+#sudo yum upgrade -y
